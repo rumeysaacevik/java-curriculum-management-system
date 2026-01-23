@@ -1,31 +1,122 @@
-# Creating a Curriculum 
+# 📚 Java Curriculum Management System
 
-- The main purpose of the program is creating engineering faculty lectures with professors adding and removing lectures and accessing this curriculum by students.
+This project is a **Java-based curriculum management system** developed as part of a Computer Programming / OOP laboratory course.
 
-- Program Objects and Relationships: The created objects are faculty and departments, and the relationship between them is faculties is creating from departments. 
+The main goal of the project is to model a university environment where **faculties, departments, professors, and students** interact to create and manage academic curricula.
 
-- The main purpose of use of object Faculty is, it is an object that can gather department together.
+---
 
-- The main purpose of object department is, define the courses and make the curriculum clear by listing the topics within these courses.
+## 🎯 Project Objective
 
+The objective of this project is to design an object-oriented system that allows:
 
-# Complex Rules  :
+- Creating faculties and departments
+- Managing lectures and curriculum structure
+- Assigning professors and students to departments
+- Allowing students to access curriculum and lecture details
 
-• It uses the arguments we gave in the test with the createProfessor method and also assigns an id of its own and adds it and creates an object. The reason is that if there is a professor with the same name and surname, they all have a unique number via id. 
+The project focuses on **object relationships and system logic**, rather than user interface design.
 
-• It uses the arguments we gave in the test with the createStudent method and also assigns an id of its own and adds it and creates an object. The reason is that if there is a student with the same name and surname, they all have a unique number via id. 
+---
 
-• The student who successfully enters the system with the showLectureDetails method can see the details of the lectures. 
+## 🧩 Project Scenario
 
-•Professors can add and remove courses from the curriculum with the addSubject and removeSubject methods. 
+The application simulates a university curriculum system:
 
-•With the listSubjects method, students can list the lectures and subjects they will take and with the findSubject method, they can search for a topic and find out whether it is in that lecture. 
+- **Faculties** group multiple departments.
+- **Departments** define courses and curriculum structure.
+- **Professors** can add or remove lectures and subjects.
+- **Students** can view lecture details, list courses, and search for specific topics.
+- Each user (student or professor) is assigned a **unique ID** to avoid duplication.
 
-•With profLogin method it looks at the professors in all departments and logs in if it finds the conditions and with stdLogin method it looks at the students in all departments and logs in if it finds the conditions. 
+---
 
-•With the createLecture method, a name and a username are taken. If there is a proffessor with that username in the professors in the department, it is kept in the prof target, then the create lecture in the admin is created by assigning the target to the professor and
-added to the department courses, and all students in the department are assigned this course if there is no proffessor nothing is added, returns error sentence.
+## 🧱 System Design
 
+The system is implemented using multiple Java classes, each representing a real-world entity:
+
+### 🔹 Faculty
+- Groups departments together
+- Acts as the top-level academic unit
+
+### 🔹 Department
+- Defines courses and subjects
+- Manages curriculum content
+
+### 🔹 Professor
+- Can add or remove subjects from lectures
+- Manages lecture content
+
+### 🔹 Student
+- Can view lecture details
+- Can list and search subjects within the curriculum
+
+### 🔹 Lecture
+- Represents a course
+- Contains lecture topics and details
+
+### 🔹 Admin
+- Creates lectures
+- Assigns professors to lectures
+- Manages system-level operations
+
+---
+
+## 📌 Features
+
+- Faculty and department creation
+- Professor and student registration with unique IDs
+- Lecture creation and assignment
+- Adding and removing subjects from lectures
+- Listing lectures and subjects
+- Searching for specific subjects
+- Login mechanisms for professors and students
+
+---
+
+## 🛠 Technologies Used
+
+- Java
+- Object-Oriented Programming (OOP)
+- Inheritance and composition
+- Class relationships
+- Console-based application
+
+---
+
+## 📂 Project Structure
+
+The project includes multiple Java classes such as:
+
+- `Faculty`, `Department`
+- `Professor`, `Student`, `User`
+- `Lecture`
+- `Admin`
+- Test and driver classes
+
+Each class is designed with a **single responsibility** to maintain clarity and modularity.
 
 ![umllll](https://github.com/rumeysaacevik/creating-curriculum/assets/169652554/3596ac31-3cae-4c7b-b8d8-a6087d297a9b)
+
+---
+
+## 🎯 Learning Outcomes
+
+Through this project, I gained experience in:
+
+- Designing object-oriented systems in Java
+- Modeling real-world entities with classes
+- Managing complex object relationships
+- Implementing role-based system logic
+- Writing clean and structured Java code
+
+---
+
+## 📚 Notes
+
+This project represents my **early academic experience with Java and OOP** and is preserved to demonstrate my understanding of object-oriented design principles.
+
+
+
+
 
