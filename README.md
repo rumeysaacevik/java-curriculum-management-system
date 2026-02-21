@@ -1,4 +1,4 @@
-# 📚 Java Curriculum Management System
+#  Java Curriculum Management System
 
 This project is a **Java-based curriculum management system** developed as part of a Computer Programming / OOP laboratory course.
 
@@ -6,7 +6,7 @@ The main goal of the project is to model a university environment where **facult
 
 ---
 
-## 🎯 Project Objective
+##  Project Objective
 
 The objective of this project is to design an object-oriented system that allows:
 
@@ -19,7 +19,7 @@ The project focuses on **object relationships and system logic**, rather than us
 
 ---
 
-## 🧩 Project Scenario
+##  Project Scenario
 
 The application simulates a university curriculum system:
 
@@ -31,7 +31,7 @@ The application simulates a university curriculum system:
 
 ---
 
-## 🧱 System Design
+##  System Design
 
 The system is implemented using multiple Java classes, each representing a real-world entity:
 
@@ -62,7 +62,7 @@ The system is implemented using multiple Java classes, each representing a real-
 
 ---
 
-## 📌 Features
+##  Features
 
 - Faculty and department creation
 - Professor and student registration with unique IDs
@@ -74,7 +74,7 @@ The system is implemented using multiple Java classes, each representing a real-
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Java
 - Object-Oriented Programming (OOP)
@@ -84,7 +84,7 @@ The system is implemented using multiple Java classes, each representing a real-
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 The project includes multiple Java classes such as:
 
@@ -100,7 +100,7 @@ Each class is designed with a **single responsibility** to maintain clarity and 
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 Through this project, I gained experience in:
 
